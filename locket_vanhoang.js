@@ -10,7 +10,7 @@ var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
 
 obj.Attention = "Nâng Cấp Thành Công! Liên hệ Tele@hoangjump";
 
-var ohoang7 = {
+var vanhoang = {
     is_sandbox: !1,
     ownership_type: "PURCHASED",
     billing_issues_detected_at: null,
@@ -23,7 +23,7 @@ var ohoang7 = {
     store: "app_store"
 };
 
-var vuong2023 = {
+var vanhoang2004 = {
     grace_period_expires_date: null,
     purchase_date: "2024-07-28T01:04:17Z",
     product_identifier: "com.vanhoang.premium.yearly",
